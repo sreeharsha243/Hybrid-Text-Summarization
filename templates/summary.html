@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aok/XA+B58RXPxPg6fy4IwvTNh@E263XmFc315Aw1GgFAW/dA1563Xm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="static/styles.css" />
+    <script type="text/javascript">
+      var randomStrings = [
+        "this is an example of a random string",
+        "here's another random string",
+        "or maybe this string will be chosen at random",
+      ];
+      function RndMsg() {
+        var msg =
+          randomStrings[Math.floor(Math.random() * randomStrings.length)];
+        document.getElementById("randomDiv").innerHTML = msg;
+      }
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="menu">
+        <div class="m1">
+          <a href="index.html">HOME</a>
+        </div>
+        <div class="m1">
+          <a>ABOUT</a>
+        </div>
+        <div class="m1">
+          <a>CONTACT</a>
+        </div>
+        <div class="last m1">
+          <a href="index.html">&larr;BACK</a>
+        </div>
+      </div>
+
+      <div class="MC">
+        <div class="ts">
+          <div>
+            <h1>Text Summarization</h1>
+          </div>
+          <div>
+            <p class="tag">Retrieve the best summary for the text</p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="c1">
+            <div class="c11">
+              <p class="title" style="text-align: center">Original Text</p>
+            </div>
+            <div class="c12">
+              <p class="title" style="text-align: center">Summary Text</p>
+              <p class="error-para"></p>
+            </div>
+            <button class="btn" id="convertBtn">play</button>
+          </div>
+          <div class="c2">
+            <div class="c21">
+              <div>
+                <p class="orignaltxt ot">{{original_text}}</p>
+              </div>
+            </div>
+            <div class="c22">
+              <p class="summaryTxt st">{{summary}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ad">
+        <p>Space for ads</p>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ302DKtIkVVIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-Aplibgh9B+Y1QKtv3Rn7w3mgPxhU9K/ScQsAP7hU1bX39J7fakFPskvXusvfa@b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-3ZR65pejh4U@2d8j0t6vLEHfe/3QG1RRSQQxSfFwp11MquVdAyjuar5+76PVCmY1"
+      crossorigin="anonymous"
+    ></script>
+    <script src="static/ts.js"></script>
+  </body>
+</html>

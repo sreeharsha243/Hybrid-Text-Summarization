@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aok/XA+B58RXPxPg6fy4IwvTNh@E263XmFc315Aw1GgFAW/dA1563Xm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="static/styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="menu">
+        <div class="m1">
+          <a href="index.html">HOME</a>
+        </div>
+        <div class="m1">
+          <a href="static/about.html">ABOUT</a>
+        </div>
+        <div class="m1">
+          <a href="static/contact.html">CONTACT</a>
+        </div>
+      </div>
+      <div class="MC">
+        <div class="ts">
+          <div>
+            <h1>Text Summarization</h1>
+          </div>
+          <div>
+            <p class="tag">Retrieve the best summary for the text</p>
+          </div>
+        </div>
+        <div class="i1">
+          <form action="/analyze" method="POST">
+            <textarea
+              style="text-align: justify"
+              name="rawtext"
+              class="form-control"
+              rows="3"
+              placeholder="Enter your raw text"
+            ></textarea>
+            <button class="btn btn-primary sub" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="ad">
+        <p>Space for ads</p>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ302DKtIkVVIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-Aplibgh9B+Y1QKtv3Rn7w3mgPxhU9K/ScQsAP7hU1bX39J7fakFPskvXusvfa@b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-3ZR65pejh4U@2d8j0t6vLEHfe/3QG1RRSQQxSfFwp11MquVdAyjuar5+76PVCmY1"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

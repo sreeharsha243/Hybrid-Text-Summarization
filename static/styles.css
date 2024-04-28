@@ -1,0 +1,243 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.jumbotron {
+  background-color: orange;
+}
+.original_title {
+  background-color: orangered;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+/* .summary_title {
+  background-color: greenyellow;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+} */
+
+.container {
+  /* height: 80%; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  height: 80vh;
+  width: 80%;
+  margin-right: 0;
+  margin-left: 0;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  /* align-items: center;
+  justify-content: center; */
+  /* border: 0.1rem solid black; */
+}
+
+.ts {
+  height: 20vh;
+  width: 80vw;
+  border: 0.1rem solid rgb(63, 59, 59);
+  margin-left: 0;
+  /* margin-right: 10%; */
+  background-color: gold;
+  border-radius: 0.5rem;
+  padding-top: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.tag {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.originaltxt {
+  width: 100%;
+}
+
+.summaryTxt {
+  width: 100%;
+}
+
+.c1 {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 0.12rem solid black; */
+}
+
+.c2 {
+  width: 100%;
+  /* border: 0.12rem solid black; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.c11 {
+  width: 30%;
+  border: 0.1rem solid rgb(247, 106, 106);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: rgb(247, 106, 106);
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.c12 {
+  width: 30%;
+  border: 0.1rem solid rgb(92, 179, 92);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: rgb(92, 179, 92);
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.c21 {
+  width: 45%;
+  height: 25rem;
+  border: 0.1rem solid white;
+  text-align: justify;
+  line-height: 1rem;
+  overflow: auto;
+  border-top: 0.15rem dotted rgb(247, 106, 106);
+  border-bottom: 0.15rem dotted rgb(247, 106, 106);
+}
+
+.c22 {
+  display: inline-block;
+  width: 45%;
+  height: 25rem;
+  /* border: 0.1rem solid rgb(97, 93, 93); */
+  text-align: justify;
+  line-height: 1rem;
+  overflow: auto;
+  border-top: 0.15rem dotted rgb(92, 179, 92);
+  border-bottom: 0.15rem dotted rgb(92, 179, 92);
+}
+
+.c21:hover {
+  border: 0.15rem dotted rgb(247, 106, 106);
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 2rem rgb(247, 106, 106);
+}
+
+.c22:hover {
+  border: 0.15rem dotted rgb(92, 179, 92);
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 2rem rgb(92, 179, 92);
+}
+
+.title {
+  padding-top: 0.9rem;
+  padding-bottom: 0.5rem;
+  line-height: 1rem;
+}
+
+.i1 {
+  width: 60vw;
+  margin-left: 10%;
+  margin-top: 1rem;
+  height: 20rem;
+}
+
+.form-control {
+  height: 20rem;
+  line-height: 1rem;
+  overflow: auto;
+}
+
+.sub {
+  margin-left: 40%;
+  width: 20%;
+  margin-top: 1%;
+}
+
+.foot {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.foot a {
+  font-size: large;
+}
+
+.menu {
+  display: flex;
+  height: 100vh;
+  width: 10vw;
+  border: 0.1rem solid grey;
+  border-radius: 0.5rem;
+  margin-left: 0;
+  text-align: start;
+  flex-direction: column;
+  /* padding-left: 1.5rem; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.MC {
+  width: 80%;
+}
+
+.right {
+  width: 5%;
+}
+
+.m1 {
+  padding-left: 10%;
+  margin-top: 25%;
+  /* background-color: bisque; */
+}
+
+.m1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.last {
+  position: absolute;
+  bottom: 0;
+  background-color: gray;
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.last a {
+  color: white;
+}
+.ad {
+  width: 10vw;
+  border: 0.1rem solid grey;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding-top: 40vh;
+  font-size: 2rem;
+}
+
+.ad p {
+  opacity: 0.1;
+}
